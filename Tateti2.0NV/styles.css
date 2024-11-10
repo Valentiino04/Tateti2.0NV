@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    margin: 20px auto;
+}
+
+.titulo {
+    font-size: 2rem;
+    color: #333;
+}
+
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.celda {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    font-size: 2.5rem;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.estado-juego {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    color: #007bff;
+}
+
+.reiniciar-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reiniciar-btn:hover {
+    background-color: #0056b3;
+}
